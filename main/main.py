@@ -3,7 +3,7 @@ from ctypes import sizeof
 from datetime import date, time, datetime
 import json
 from operator import truediv
-
+import sys
 
 def newTask():
     f = open("entries.txt", "a")
